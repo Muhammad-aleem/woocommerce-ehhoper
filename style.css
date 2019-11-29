@@ -1,0 +1,152 @@
+/*!
+Theme Name:   Eshopper
+Theme URI:    https://woocommercecom/storefront/
+Author:       Aleem
+Author URI:   https://woocommerce.com/
+Description:  Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!
+Version:      2.5.3
+License:      GNU General Public License v2 or later
+License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  storefront
+Tags:         e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options, editor-style
+
+ */
+
+
+/* ============================= woocommerce section */
+/* .woocommerce ul.products li.product .price {
+    
+    color: #FE980F;
+    font-size: 20px;
+    font-weight: 700;
+} */
+/* .woocommerce ul.products li.product .price {
+    color: #FE980F;
+    display: block;
+    font-weight: 400;
+    margin-bottom: .5em;
+    font-size: .857em;
+} */
+.woocommerce ul.products li.product .price {
+    color: #FE980F;
+    display: block;
+    font-weight: 400;
+    margin-bottom: .5em;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.woocommerce ul.products li.product .price ins {
+
+    display: inline-block;
+    float: right;
+    margin-right: 70px;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title,
+.woocommerce ul.products li.product h3 {
+    padding: .5em 0;
+    margin: 0;
+    font-size: 1em;
+    color: #696763;
+}
+
+.woocommerce ul.products li.product .button {
+    margin-top: 1em;
+    background: #7373731f;
+    border-radius: 0px;
+
+}
+
+.woocommerce ul.products li.product a:hover {
+    background: rgb(246, 141, 3);
+    color: #fff;
+}
+
+.shop-menu ul li a {
+
+    display: inline;
+}
+
+li#woocommerce_product_categories-2 {
+    list-style: none;
+    color: rgb(246, 141, 3);
+    margin: 25px 0;
+}
+
+li#woocommerce_layered_nav-2 {
+    list-style: none;
+    color: rgb(246, 141, 3);
+}
+
+ul.product-categories {
+    padding-left: inherit;
+    border: 1px solid #F7F7F0;
+    padding: 12px;
+}
+
+li.cat-item a {
+    color: #FE980F
+}
+
+li.cat-item a:hover {
+    color: rgba(254, 250, 15, 0.952);
+}
+
+.woocommerce .woocommerce-widget-layered-nav-list {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none outside;
+    border: 1px solid #F7F7F0;
+    padding: 12px;
+}
+
+.woocommerce #content div.product div.images,
+.woocommerce div.product div.images,
+.woocommerce-page #content div.product div.images,
+.woocommerce-page div.product div.images {
+    float: left;
+    width: 100%;
+}
+
+.woocommerce #content div.product div.summary,
+.woocommerce div.product div.summary,
+.woocommerce-page #content div.product div.summary,
+.woocommerce-page div.product div.summary {
+    float: right;
+    width: 100%;
+    clear: none;
+}
+
+.woocommerce div.product div.images .woocommerce-product-gallery__image:nth-child(n+2) {
+    width: 33%;
+    display: inline-block;
+    margin-top: 8px;
+    padding: 2px;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 137px;
+    margin-top: -26px;
+}
+
+#similar-product .carousel-inner .item {
+    padding-left: 0px;
+    padding-left: 25px;
+    height: 128px;
+    width: 51%;
+    padding-right: 6px;
+    margin-left: 27px;
+}
+.shop-details-tab {
+    border: 1px solid #F7F7F0;
+    margin-bottom: 75px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 10px;
+    clear: both;
+}
